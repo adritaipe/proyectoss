@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #041f41; /* Azul oscuro */
+    color: #ffffff; /* Texto en blanco */
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.perfil h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.perfil p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.contacto, .experiencia, .educacion {
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #041f41; /* Azul oscuro */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
